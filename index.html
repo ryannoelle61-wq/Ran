@@ -85,7 +85,7 @@
       const thinking = addMsg("思考中…", "bot");
 
       try {
-        const resp = await fetch("/api/chat", {
+        const resp = await fetch("https://liangxiaozhi-d7gghiggef22d8751-1511901122.ap-shanghai.app.tcloudbase.com/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: text, history: history.slice(0, -1).slice(-10) }),
