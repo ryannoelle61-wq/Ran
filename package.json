@@ -1,0 +1,12 @@
+{
+  "name": "cjlu-campus-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "dev": "node scripts/dev.mjs"
+  }
+}
